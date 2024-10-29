@@ -1,12 +1,6 @@
 import { SignIn } from '@clerk/nextjs'
 
 export default function Page() {
-  return <SignIn />
-}
-/**
-import { SignIn } from '@clerk/nextjs'
-
-export default function Page() {
   return (
   <section className="bg-white">
     <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
@@ -53,4 +47,4 @@ export default function Page() {
   </section>
   );
 }
-  */
+
